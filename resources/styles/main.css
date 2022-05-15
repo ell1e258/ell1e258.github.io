@@ -26,3 +26,8 @@ a:hover {
   width: 100px;
   height: 178px;
 }
+hr {
+  display: none;
+  border: 3px solid #000;
+  border-radius: 5px;
+}
