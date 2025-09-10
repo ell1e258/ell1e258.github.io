@@ -1,6 +1,4 @@
-/*
-Basic shit lmfao
-*/
+/* basic shit lmfao */
 body {
   background-image: url("../mtdrawing2.png");
   background-repeat: no-repeat;
@@ -14,3 +12,25 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 /* navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #674c8785;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+.navbar a:hover {
+  background-color: #271935;
+  transition: background 0.3s;
+  border-radius: 5px;
+}
