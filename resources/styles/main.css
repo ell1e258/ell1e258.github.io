@@ -19,7 +19,7 @@ p {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: rgba(255,255,255,0.8);
+  background-color: #684c87;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -29,7 +29,7 @@ p {
   z-index: 1000;
 }
 .navbar a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
   padding: 12px 20px;
   font-size: 18px;
@@ -38,6 +38,6 @@ p {
   margin: 0 8px;
 }
 .navbar a:hover {
-  background-color: #333;
+  background-color: #271935;
   color: #fff;
 }
