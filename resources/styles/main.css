@@ -2,7 +2,8 @@
 Basic shit lmfao
 */
 body {
-  background-color: #ff1493;
+  background-image: url("../mtdrawing2.png");
+  background-repeat: no-repeat;
   font-family: sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
