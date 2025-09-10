@@ -6,57 +6,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: sans-serif;
-  font-size: 16px;
 }
-h1 {
-  text-align: center;
-  color: #fff;
-  font-size: 2.5em;
-}
-h2 {
-  text-align: center;
-  color: #fff;
-  font-size: 2em;
-}
-h3 {
-  text-align: center;
-  color: #fff;
-  font-size: 1.75em;
-}
-h4, h5, h6 {
-  text-align: center;
-  color: #fff;
-}
-/* Navbar styles */
-.navbar {
-  /* Layout */
-  position: sticky;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0;
-  overflow: hidden;
-
-  /* Color */
-  background-color: #684c87;
-
-  /* Effects */
-  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  z-index: 50;
-}
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-  padding: 12px 20px;
-  font-size: 18px;
-  border-radius: 4px;
-  margin: 0 8px;
-}
-.navbar a:hover {
-  background-color: #271935;
+h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
