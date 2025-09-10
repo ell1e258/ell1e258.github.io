@@ -33,7 +33,6 @@ p {
   text-decoration: none;
   padding: 12px 20px;
   font-size: 18px;
-  transition: background 0.2s, color 0.2s;
   border-radius: 4px;
   margin: 0 8px;
 }
