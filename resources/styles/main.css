@@ -10,3 +10,75 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.brand {
+  color: white;
+  font-size: 1.5em;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+}
+
+.toggle-button {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .toggle-button {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    display: none;
+  }
+
+  .nav-links li {
+    margin: 0;
+    border-top: 1px solid #444;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
