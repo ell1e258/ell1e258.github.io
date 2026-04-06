@@ -12,9 +12,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         font-family: sans-serif;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
       }
       h1, h2, h3, h4, h5, h6 {
         color: #fff;
@@ -26,26 +23,27 @@
       }
       /* navbar */
       .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #664c87e3;
         position: fixed;
         top: 0;
         width: 100%;
-        background-color: #664c87e3;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0.5rem 1rem;
-        z-index: 1000;
       }
-      .navbar a {
-        color: white;
-        text-decoration: none;
-        padding: 0.5rem 1rem;
+      .navbar li {
+        float: left;
+      }
+      .navbar li a {
         display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
       }
-      .navbar a:hover {
-        background-color: #271935;
-        transition: background 0.3s;
-        border-radius: 5px;
+      .navbar li a:hover {
+        background_-color: #271935;
       }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
