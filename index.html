@@ -35,16 +35,40 @@
       .navbar li {
         float: left;
       }
-      .navbar li a {
-        display: block;
+      .navbar li.dropdown {
+        display: inline-block;
+      }
+      .navbar li a, .drophover {
+        display: inline-block;
         color: white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
         transition-duration: 0.3s;
       }
-      .navbar li a:hover {
+      .navbar li a:hover, .dropdown:hover .drophover {
         background-color: #271935;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #664c87e3;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0(0,0,0,0.2);
+        z-index: 1;
+      }
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      .dropdown-content a:hover {
+        background-color: #271935;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
       }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,6 +79,12 @@
     <ul class="navbar">
       <li>
         <a href="https://ell1e258.github.io">Home</a>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="drophover">dropdown test</a>
+        <div class="dropdown-content">
+          <a href="#">test</a>
+        </div>
       </li>
     </ul>
     <br>
